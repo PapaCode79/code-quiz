@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Quiz for Fun</title>
+    <link rel="stylesheet" href="./Style.css" />
+  </head>
+  <body>
+    <div>
+      <!-- start Quiz Button -->
+      <h1 style="background-color: rgb(91, 119, 130);">Challenge Quiz for Fun</h1>
+    
+      <div class="start-container">
+
+        <p class="rules"><strong>GAME RULES:</strong>
+            - You will have 30 seconds countdown to answer all four questions <br></br> 
+            - Once your time expires, you cannot go back to any questions and your score will be record.<br></br>
+            - You will get 5 points for each correct answer.<br></br>
+            - If you get all questions correct, you will receive the score of 20 points.<br></br> - This include the total of 10 points as bonus for getting all questions right.<br></br>
+            - At the end of the Quiz, your total score will be displayed.
+        </p>
+
+        <button class="startbtn">start</button> 
+      </div>
+      <div class="questionContainer">
+        <p class="timer"><strong>Time Left 30</p></strong>
+        <h2 class="question">question</h2>
+        <div class="answerlist"></div>
+        <button class="nextbtn">next</button>
+        
+      </div>
+      <div class="nextContainer"></div>
+      
+      <h3 class="showresults">Quiz Points: <span class="result"></span> <br>Up to 20</h3>
+
+      <!-- Quiz Box Footer -->
+
+      <div class="quizContainer"></div>
+
+      <script src="./Script.js"></script>
+    </div>
+  </body>
+</html>
+

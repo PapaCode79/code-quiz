@@ -1,0 +1,115 @@
+*{
+    margin: 1em;
+    padding: 0px;
+    background-color: burlywood;
+    box-sizing:content-box;
+    border-style:ridge;
+    border-color: black;
+    border-radius:1em;
+}
+
+.startbtn {
+    font-size: 20px;
+    font-weight: 20px;
+    margin: 20px 10px 20px 650px;
+    padding: 25px 60px;
+    color:black;
+    border-radius: 0px;
+    background: rgb(68, 100, 68);
+    cursor: pointer;
+    border-radius:1em;
+    position:-webkit-sticky;
+}
+
+.nextbtn {
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    padding: 10px 60px;
+    border-radius: 5px;
+    background:rgb(96, 115, 123);
+    cursor: pointer;
+}
+
+.answerlist {
+    font-size: 20px;
+    font-weight: 50;
+    padding: 50px;
+    border:1em 5px;
+    background: rgb(114, 90, 136);
+    cursor: pointer;
+}
+
+.question {
+    height: 50px;
+    padding: 30px;
+    background: rgb(109, 74, 74);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius:0em;
+    
+}
+
+.timer {
+    font: weight 100px;
+    font-size: 20px;
+    font: optional;
+    font-display: 50px;
+    color: black;
+    background: rgb(110, 78, 78);
+    margin: -10px;
+    border-radius:2em;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+
+}
+.result{
+    margin: 30px 10px 0px 100px;
+    padding: 10px;
+}
+.rules{
+    margin: 30px 20px 20px 250px;
+    padding: 20px 10px 30px 30px;
+    background-color: rgb(100, 154, 175);
+    color:black;
+    display:inline-flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+h1{
+    margin: 50px 200px 30px 520px;
+    padding: 10px 100px 10px 100px;
+    background: grey;
+    max-width: 200px;
+    min-height: fit-content; 
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align:center;    
+}
+
+h3{
+    padding: 50px;
+    background: rgb(110, 78, 78);
+    max-width: 300px;
+    min-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;   
+}
+
+div {
+    background-color:rgb(102, 119, 73);
+    display: flex;
+    padding: 40px 10px 15px 10px;
+    min-height: 10vh;
+    font-size: 20px;
+    font-weight: 100;
+    display:contents;
+}
+ 
